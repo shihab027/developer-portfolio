@@ -95,11 +95,21 @@ nav a {
 }
 
 /* main section style */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about {
     padding: 130px;
     background-color: #FD6E0A1A;
     border-radius: 10px;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
